@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/NuevaScena/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=198ca28755374e54db6c415103c33b4e&amp;type=3#NewUSSFile" />
+    <ui:VisualElement name="TotalPosition" class="Total" style="flex-grow: 1;">
+        <ui:VisualElement name="CenterButtons" class="CenterButtons" style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="SELECCIONE EL MATERIAL" parse-escape-sequences="true" display-tooltip-when-elided="true" style="align-items: stretch; flex-direction: column; -unity-text-align: upper-center; width: 70%; height: 20%; margin-top: 0; margin-bottom: 0; align-self: center; justify-content: flex-start; position: relative; top: auto; bottom: 50px; font-size: 65px; color: rgb(255, 73, 0); -unity-font: url(&apos;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&apos;); -unity-font-definition: initial; background-color: rgb(0, 0, 0);" />
+            <ui:VisualElement name="ButtonSite" class="botonesSite" style="flex-grow: 1;">
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="botonMadera" class="Botones botonMadera" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="botonCristal" class="Botones botonCristal" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="botonCuero" class="Botones botonCuero" />
+                <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="botonMetal" class="Botones botonMetal" style="background-image: url(&apos;project://database/Assets/SPRITES/METAL.png?fileID=2800000&amp;guid=0ac275a9e9a0d704fa078139a0b6e10f&amp;type=3#METAL&apos;);" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="NOMBRE DEL MATERIAL&#10;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lMateriales" class="labelMateriales" style="top: 90px; -unity-text-outline-color: rgba(255, 73, 0, 0.04); color: rgb(255, 73, 0); font-size: 60px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

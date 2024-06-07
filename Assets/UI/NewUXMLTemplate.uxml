@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/stilos/contenedor.uss?fileID=7433441132597879392&amp;guid=eb60e03d0d0891d44bc75a2b742a9fd0&amp;type=3#contenedor" />
+    <ui:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1;">
+        <ui:VisualElement name="Izquierda" class="Izquierda" style="flex-grow: 1;">
+            <ui:VisualElement name="Logo" class="logo" style="flex-grow: 1;" />
+            <ui:VisualElement name="Botones" class="botones" style="flex-grow: 1;">
+                <ui:Button text="START" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" class="BotonStart startboton" style="-unity-font: url(&quot;project://database/Assets/fuentes/space%20age.ttf?fileID=12800000&amp;guid=657db78a27611154a82cff3295fa8dd8&amp;type=3#space age&quot;); -unity-font-definition: initial; font-size: 50px; color: rgb(255, 99, 1);" />
+                <ui:Button text="OPTIONS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="options" class="BotonStart" style="font-size: 40px; color: rgb(255, 99, 1);" />
+                <ui:Button text="STATS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stats" class="BotonStart" style="-unity-font: url(&quot;project://database/Assets/fuentes/space%20age.ttf?fileID=12800000&amp;guid=657db78a27611154a82cff3295fa8dd8&amp;type=3#space age&quot;); -unity-font-definition: initial; font-size: 45px; color: rgb(255, 99, 1);" />
+                <ui:Button text="EXIT" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit" class="BotonStart botonExit" style="font-size: 35px; color: rgb(255, 99, 1);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Foot" class="foot" style="flex-grow: 1;">
+                <ui:VisualElement name="Footerlogo" class="footerlogo" style="flex-grow: 1; width: 250px; height: 30px; margin-bottom: 20px;" />
+                <ui:Label tabindex="-1" text="Simulador De Maquina Laser I Deep Dealers Company" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Textfooter" class="footertexto" style="font-size: 18px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&amp;guid=0ec5291d673d9704cbbeae4e15433588&amp;type=3#NotInter-Regular&quot;);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Derecha" class="Derecha" style="flex-grow: 1;">
+            <ui:VisualElement name="Hangar" class="Hangar" style="flex-grow: 1;">
+                <ui:Label tabindex="-1" text="MAQUINA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TITULOHANGAR" class="titulohangar" style="font-size: 70px;" />
+                <ui:VisualElement name="Especificaciones-machine" class="Especificaciones-machine" style="flex-grow: 1;">
+                    <ui:VisualElement name="Especificaciones-IZQ" class="especificaciones-Izq" style="flex-grow: 1;">
+                        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="BotonMaquina" class="botonmaquina" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Especificaciones-Der" class="Especificaciones-Der" style="flex-grow: 1;">
+                        <ui:Label tabindex="-1" text="SELECCIONA LA MAQUINA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TituloMaq" class="titulomaq" style="color: rgb(255, 255, 255); font-size: 25px; -unity-text-align: upper-left; -unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial;" />
+                        <ui:Label tabindex="-1" text="INGEACOL LASER C02" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NombreMaquina" class="nombremaq" style="color: rgb(255, 99, 1); font-size: 25px; -unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; padding-bottom: 10px; padding-left: 10px;" />
+                        <ui:Label tabindex="-1" text="CARACTERISTICAS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Caracteristicas" class="Caracteristicas" style="-unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; font-size: 25px; color: rgb(255, 255, 255);" />
+                        <ui:VisualElement name="ContenedorEstadistica" class="stats" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="POTENCIA DEL LASER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Propiedad" style="-unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; font-size: 25px; color: rgb(255, 99, 1);" />
+                            <ui:ProgressBar value="22" name="Potencia" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ContenedorEstadistica" class="statsvelocidad" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="VELOCIDAD DE CORTE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Propiedad" style="font-size: 25px; color: rgb(234, 91, 1); -unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial;" />
+                            <ui:ProgressBar value="22" name="Velocidad" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ContenedorEstadistica" class="statsescaneo" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="PRECISION DE ESCANEO" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Propiedad" style="font-size: 25px; -unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; color: rgb(255, 99, 1);" />
+                            <ui:ProgressBar value="22" name="Precision" />
+                        </ui:VisualElement>
+                        <ui:VisualElement name="ContenedorEstadistica" class="statscosto" style="flex-grow: 1;">
+                            <ui:Label tabindex="-1" text="COSTO ELECTRICO" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Propiedad" style="-unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; font-size: 25px; color: rgb(255, 99, 1);" />
+                            <ui:ProgressBar value="22" name="Costo" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Button text="VOLVER" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Volver" class="volve_boton" style="-unity-text-align: middle-center; -unity-font: url(&quot;project://database/Assets/fuentes/space%20age.otf?fileID=12800000&amp;guid=1c395b87a45a9ea48a51969092f4f354&amp;type=3#space age&quot;); -unity-font-definition: initial; -unity-font-style: bold; font-size: 17px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

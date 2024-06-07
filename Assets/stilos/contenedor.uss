@@ -1,0 +1,220 @@
+.contenedor {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.Izquierda {
+    max-width: 500px;
+    min-width: 401px;
+    height: 100%;
+    background-color: rgb(10, 9, 9);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Derecha {
+    flex-grow: 1;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    translate: 100% 0;
+    transition-duration: 0.5s;
+}
+
+.logo {
+    background-image: url("project://database/Assets/SPRITES/Ingeacol%20logo-Photoroom.png-Photoroom.png?fileID=2800000&guid=beecb389ce95d9842bdc4decd20a2cc9&type=3#Ingeacol logo-Photoroom.png-Photoroom");
+    width: 450px;
+    height: 1px;
+    margin-top: 40px;
+    background-color: rgba(10, 9, 9, 0.98);
+}
+
+.botones {
+    width: 100%;
+    -unity-font: url("project://database/Assets/fuentes/space%20age.ttf?fileID=12800000&guid=657db78a27611154a82cff3295fa8dd8&type=3#space age");
+    -unity-font-definition: initial;
+    font-size: 50px;
+    -unity-font-style: normal;
+    height: 15%;
+}
+
+.foot {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.BotonStart {
+    background-image: none;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 80px;
+    -unity-font: url("project://database/Assets/fuentes/space%20age.otf?fileID=12800000&guid=1c395b87a45a9ea48a51969092f4f354&type=3#space age");
+    -unity-font-style: bold;
+    background-color: rgba(24, 24, 24, 0.88);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-out;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.BotonStart:hover {
+    background-color: rgb(255, 111, 0);
+    color: rgb(0, 0, 0);
+}
+
+.footertexto {
+    color: rgb(255, 255, 255);
+    -unity-text-align: upper-center;
+}
+
+.footerlogo {
+    width: 150px;
+    height: 55px;
+    margin-bottom: 20px;
+    background-image: url("project://database/Assets/SPRITES/Usc.png?fileID=2800000&guid=e3e94a5141335d246b4fe35733dc018c&type=3#Usc");
+}
+
+.Hangar {
+    width: 70%;
+    height: auto;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-self: auto;
+    max-height: 540px;
+}
+
+.titulohangar {
+    -unity-text-align: upper-center;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/fuentes/space%20age.ttf?fileID=12800000&guid=657db78a27611154a82cff3295fa8dd8&type=3#space age");
+    font-size: 50px;
+    color: rgb(255, 99, 1);
+    margin-bottom: 20px;
+}
+
+.Especificaciones-machine {
+    flex-direction: row;
+}
+
+.especificaciones-Izq {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: 400px;
+    max-height: 400px;
+}
+
+.botonmaquina {
+    width: 400px;
+    height: 400px;
+    background-image: url("project://database/Assets/SPRITES/WhatsApp%20Image%202024-05-14%20at%204.41.04%20PM.jpeg?fileID=2800000&guid=506a5c8bb7d3cc240aea09e911625548&type=3#WhatsApp Image 2024-05-14 at 4.41.04 PM");
+    -unity-background-image-tint-color: rgb(101, 101, 101);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-left-color: rgba(80, 80, 80, 0);
+    border-right-color: rgba(80, 80, 80, 0);
+    border-top-color: rgba(80, 80, 80, 0);
+    border-bottom-color: rgba(80, 80, 80, 0);
+}
+
+.Especificaciones-Der {
+    height: 100%;
+    flex-grow: 1;
+}
+
+.titulomaq {
+}
+
+.nombremaq {
+}
+
+.Caracteristicas {
+}
+
+.botonmaquina:hover {
+    opacity: 1;
+    scale: 1.1 1.1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.stats {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.unity-progress-bar__progress {
+    color: rgb(56, 56, 56);
+    -unity-text-align: upper-left;
+    background-color: rgb(255, 99, 1);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.unity-progress-bar__container {
+    min-width: auto;
+}
+
+.unity-progress-bar__background {
+    background-color: rgb(0, 0, 0);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: rgb(0, 0, 0);
+}
+
+.volve_boton {
+    background-color: rgb(255, 99, 1);
+    max-width: 180px;
+    width: auto;
+    height: auto;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.Derecha-activo {
+    translate: 0 0;
+}
+
+.statsvelocidad {
+}
+
+.statsescaneo {
+}
+
+.statscosto {
+}
+
+.botonExit {
+}
+
+.startboton {
+}

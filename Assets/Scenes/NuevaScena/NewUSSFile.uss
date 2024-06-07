@@ -1,0 +1,89 @@
+.Total {
+    background-color: rgb(0, 0, 0);
+}
+
+.CenterButtons {
+    width: 100%;
+    height: 100%;
+    max-width: 1000px;
+    min-width: 700px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    max-height: 600px;
+    min-height: 700px;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-right: 0;
+    margin-bottom: 50px;
+    margin-left: 0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.botonesSite {
+    width: 900px;
+    height: 900px;
+    max-width: none;
+    max-height: none;
+    min-height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botones {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: auto;
+    align-self: auto;
+    justify-content: flex-start;
+    width: 200px;
+    height: 200px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    opacity: 0.52;
+    -unity-background-image-tint-color: rgb(99, 95, 95);
+}
+
+.botonMadera {
+    background-image: url('project://database/Assets/SPRITES/1daa9aebfdf4f555fbf9d9c188023b9b.jpg?fileID=2800000&guid=89effe4fa80b4c747bbb584ea8f43968&type=3#1daa9aebfdf4f555fbf9d9c188023b9b');
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.botonCristal {
+    background-image: url('project://database/Assets/SPRITES/Cristal.png?fileID=2800000&guid=63c520650bba40048af913b93b83e308&type=3#Cristal');
+    background-color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.botonCuero {
+    background-image: url('project://database/Assets/SPRITES/Cuero.PNG?fileID=2800000&guid=6be4f314c73af304692895aee7fea705&type=3#Cuero');
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.botonMetal {
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.labelMateriales {
+    -unity-font: url('project://database/Assets/fuentes/space%20age.otf?fileID=12800000&guid=1c395b87a45a9ea48a51969092f4f354&type=3#space age');
+    -unity-font-definition: initial;
+    transition-timing-function: ease-out;
+    transition-duration: 0.3s;
+}
+
+.Botones:hover {
+    scale: 1.1 1.1;
+    opacity: 1;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
